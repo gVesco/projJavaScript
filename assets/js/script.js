@@ -1,3 +1,44 @@
+// Console output
+
+console.log("Olá Mundo!");
+
+/*
+var   nome 	= "Guilherme"; 	// Var para variaveis globais
+let   carro = "Ferrari"; 	// Let apenas para variaveis locais
+const preco = 19999.99; 	// Constante não pode ser alterada
+
+console.log(nome);
+console.log(carro);
+console.log(preco);
+*/
+
+// Concatenando strings normais
+let nome1 = "Guilherme";
+let sobrenome1 = "Vesco";
+let nomeCompleto1 = nome1 + " " + sobrenome1;
+
+// Concatenando com Template String
+let nome2 = "Guilherme";
+let sobrenome2 = "Vesco";
+let nomeCompleto2 = `Nome Completo: ${nome2} ${sobrenome2}`; // Usando crase no lugar de aspas
+
+console.log(nomeCompleto2);
+
+// If Else
+let idade = 18;
+verificarIdade();
+function verificarIdade() {
+	if (idade >= 18) {
+		console.log("Maior de idade");
+	}
+	else
+	{
+		console.log("Menor de idade");
+	}
+}
+
+// Funcoes //
+
 function verde() {
 	document.querySelector('#exemplo').classList.remove('azul')
 	document.querySelector('#exemplo').classList.remove('vermelho')
