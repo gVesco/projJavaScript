@@ -3,4 +3,3 @@ rdmake/sync.ffs_db
 console_error.log
 *.txt
 .tmp.driveupload/
-.gitignore
